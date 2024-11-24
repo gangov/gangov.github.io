@@ -6,7 +6,7 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: "Courier New", Courier, monospace;
-  color: white;
+  color: #d3d3d3; /* Light gray for all text */
   overflow: hidden;
 }
 
@@ -36,20 +36,20 @@ body {
   margin-top: 5px;
 }
 
-/* Prompt styling to look more like a real terminal */
+/* Prompt styling, same color as other text for consistency */
 .prompt {
-  color: #00ff00; /* Classic green color for terminal prompt */
-  font-weight: bold;
+  color: #d3d3d3; /* Light gray color */
+  font-weight: normal;
 }
 
 /* Input box where users type */
 .input-line input {
   background-color: black;
-  color: white;
+  color: #d3d3d3; /* Light gray color */
   border: none;
   outline: none;
   font-family: "Courier New", Courier, monospace;
   flex: 1; /* Use flex to make the input expand and occupy remaining space */
-  caret-color: white; /* White caret to make it visible */
+  caret-color: #d3d3d3; /* Gray caret to make it visible */
   margin-left: 5px; /* Space between prompt and input field */
 }
