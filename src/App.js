@@ -19,7 +19,7 @@ function App() {
 
   const commands = {
     help: "Available commands: help, about, projects, clear",
-    about: "Kaloyan - Linux Enthusiast and Developer.",
+    about: "Kaloyan - Rust developer.",
     projects:
       "1. [Project 1](https://github.com/your-project)\n2. [Project 2](https://github.com/your-project)",
     clear: "clear",
