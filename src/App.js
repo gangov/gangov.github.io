@@ -21,7 +21,7 @@ function App() {
     help: "Available commands: help, about, projects, clear",
     about: "Kaloyan - Rust developer.",
     projects:
-      "1. [Project 1](https://github.com/your-project)\n2. [Project 2](https://github.com/your-project)",
+      "1. [Project 1](https://github.com/**)\n2. [Project 2](https://github.com/**)",
     clear: "clear",
   };
 
